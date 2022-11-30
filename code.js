@@ -8,6 +8,6 @@ const helloWorld = function() {
 }
 
 function sayHello(name) {
-
+    return `Hello, ${name}!`
 }
 
