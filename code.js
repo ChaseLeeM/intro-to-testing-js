@@ -11,3 +11,6 @@ function sayHello(name) {
     return name === undefined ? `Hello, World!`: `Hello, ${name}!`
 }
 
+function isFive(input) {
+    return input == 5;
+}
