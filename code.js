@@ -14,3 +14,7 @@ function sayHello(name) {
 function isFive(input) {
     return input === 5;
 }
+
+function isEven(input) {
+    return parseFloat(input) % 2 === 0;
+}
