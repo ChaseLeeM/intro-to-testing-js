@@ -80,4 +80,7 @@ describe('isEven', function (){
     it('should return true when passed false', function () {
         expect(isEven(false)).toBe(false);
     });
+    it('should return true when passed empty', function () {
+        expect(isEven()).toBe(false);
+    });
 });
